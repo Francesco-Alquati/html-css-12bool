@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+overflow-y: hidden;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.content{
+    height: 20px;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-02{
+    flex-basis: calc((100% / 12) * 0.2);
+    max-width: calc((100% / 12) * 0.2);
+}
+.yellow{
+    background-color: #ffff00e7;
+}
+.heavenly{
+    background-color: #CEE7F7;
+}
+.blue{
+    background-color: #013163;
+}
+.lblue{
+    background-color: #6BACDE;
+}
+.dblue{
+    background-color: #3983C6;
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}
+.orange{
+    background-color: #FED662;
+}
+.lorange{
+    background-color: #FFE7CE;
+}
+
+
